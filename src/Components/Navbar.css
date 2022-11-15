@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.list-navbar ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.list-navbar ul li a {
+    text-decoration: none;
+    color: rgb(70, 69, 69);
+}
+
+.list-navbar ul li a:hover {
+    color: hsl(35, 77%, 62%)
+}

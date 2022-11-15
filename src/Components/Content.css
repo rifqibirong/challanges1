@@ -1,0 +1,88 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 68% 350px;
+    margin-top: 40px;
+    width: 100%;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+
+.wrapper-main-img {
+    /* flex: 8; */
+    /* background-color: brown; */
+    width: 100%;
+}
+
+.wrapper-main-img .main-img {
+    height: 55%;
+    width: 100%;
+}
+
+.wrapper-main-img .wrapper-sub-img {
+    display: flex;
+    grid-template-columns: 50% 50%;
+    line-height: 30 px;
+}
+
+.wrapper-main-img .wrapper-sub-img h1 {
+    line-height: 30px;
+    width: 200px;
+}
+
+.wrapper-main-img .wrapper-sub-img p {
+    color: hsl(236, 13%, 42%);
+    font-size: 15px;
+}
+
+.wrapper-main-img .button {
+    /* padding: 3px 2px; */
+    background-color: black;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+.wrapper-text {
+    background-color: black;
+    color: #fff;
+    /* padding: 100px 10px; */
+    /* flex: 2; */
+}
+
+.text {
+    padding: 5px 15px;
+}
+
+.text h2 {
+    color: rgb(255, 145, 82);
+}
+
+.text p {
+    color: hsl(233, 8%, 79%);
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.text .horizontal {
+    background-color: rgb(165, 163, 163);
+    width: 100%;
+    height: 1px;
+}
+
+.text .h3-2 {
+    color: rgb(255, 145, 82);
+}
+
+.button {
+    border-radius: 5px;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: hsl(5, 85%, 63%);
+}
